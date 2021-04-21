@@ -1,0 +1,34 @@
+{"intents":  [
+    {"tag":  "greetings",
+    "patterns":  ["hello","hey","hi","good day","greetings","whats up?","how is it going?"],
+      "responses": ["Hello","hey","What can i do for you?"]},
+  
+    {"tag":  "goodbye",
+    "patterns":  ["cya","see you later","good bye","I am leaving","have a good day","bye","cao","see ya"],
+      "responses": ["sad to see you go :(","Talk to you later","Goodbye"]},
+  
+    {"tag":  "age",
+    "patterns":  ["how old","how old is florian?","what is your age?","how old are you","age?"],
+      "responses": ["My owner florian is 21 years old","21 years old"]},
+  
+    {"tag":  "name",
+    "patterns":  ["What is your work?","what is your name?","what should i call you?","whats your name?","who are you?","can you tell me your designation?"],
+      "responses": ["Sorry, I have no name","I don't get u","I am bot","Sorry, I have no designation"]},
+  
+    {"tag":  "shop",
+    "patterns":  ["I'd like to something","what are your products?","what do you recommend?","what are you selling?"],
+      "responses": ["AI has a seven part python book series and a lot of free content on youtube and the blog as well"]},
+  
+    {"tag":  "hours",
+    "patterns":  ["When are you guys open?","What are your hours?","hours of operation"],
+      "responses": ["24/7"]},
+    
+    {"tag":  "Questions",
+        "patterns":  ["What is your work?","Ok, So What is Artificial Intelligence?","What is Chatbot?"],
+          "responses": ["My work is to tell answers of your questions","Artificial Intelligence is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans.","A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent."]},
+  
+    {"tag":  "stocks",
+    "patterns":  ["what stocks do i own?","How are my shares?","what companies am i investing in?","What am i doing in the markets?"],
+      "responses": ["You own the folowing shares: ABBV,APPL,FB,NVDA and an ETF of the S&P 500 Index!"]}
+  ]}
+  
